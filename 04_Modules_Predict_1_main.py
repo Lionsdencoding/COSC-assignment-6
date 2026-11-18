@@ -11,7 +11,8 @@ in the terminal. Write down your prediction and your reasoning.
 I predict this:
 first: The code will import "greetings" with no output for now. Then have 03_modules_predict_1_greetings.py loaded into memory
 second: the code will print "the main program is starting..."\
-third: the program will call the module greetings, which will then print the imported module
+third: the program will call the function greetings.say_hello() which then executes the say_hello function from the imported
+greetings module. Then prints the corresponding greeting
 Finally: the program will print "the main program is ending"
 """
 
