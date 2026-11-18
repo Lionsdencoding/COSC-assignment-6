@@ -7,6 +7,12 @@ This is the main script. It imports the module from the file
 
 Read the code below. Without running it, predict what the final output will be
 in the terminal. Write down your prediction and your reasoning.
+
+I predict this:
+first: The code will import "greetings" with no output for now. Then have 03_modules_predict_1_greetings.py loaded into memory
+second: the code will print "the main program is starting..."\
+third: the program will call the module greetings, which will then print the imported module
+Finally: the program will print "the main program is ending"
 """
 
 # We are importing the code from the other file.
