@@ -8,6 +8,13 @@ However, it then defines its OWN function with the exact same name.
 
 When `main.py` is run, which `do_calculation` function will be used on the
 last line? Predict the final output of the script.
+
+i Predict that the final results will source the locally defined do_calculation. This is done because the def statement on line 4
+overwrites the import on line 1.
+
+I predict the final outcome of the script will be
+
+"This is the result from the 'main' script.
 """
 
 # This imports the specific function from the other file.
