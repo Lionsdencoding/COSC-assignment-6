@@ -9,13 +9,20 @@ Answer the following questions:
 
 1.  What does the line `import math` do? What does it make available to
     our program?
+The line 'import math' imports the math module and beinds the module object tot the name math in the current programs space.
+This module makes functions such as sqrt, sin, cos, facotrials, etc, as well as constanst like pi, e, tau, etc accessible to be used by the program
 
 2.  Why do we have to write `math.pi` and `math.sqrt()` instead of just
     `pi` and `sqrt()`? What is the purpose of the `math.` prefix?
 
+The purpose of the 'math' prefix is to call on the attribute attributed to that module's library.
+
 3.  The `math` module contains dozens of other functions and constants.
     How could you find out what other tools are in the `math` module?
     (Hint: Think about Section 7.4 of the textbook).
+
+    To find out what other tools are in the 'math' module use the built in dir() and help() functions and put the name of the module
+    AKA 'math' in the parenthesis help(math) or print(dir(math))
 """
 
 # To use special math functions and constants, we must first import the module.
