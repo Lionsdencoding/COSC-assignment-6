@@ -18,14 +18,16 @@ Instructions:
 
 # TODO: Import the math module here.
 
+import math
 
 def area_of_square(side):
     """
     Calculates the area of a square.
     Formula: area = side * side
     """
+    return side * side
     # TODO: Write the code to calculate and return the area.
-    pass # The 'pass' keyword is a placeholder. You should remove it.
+    # The 'pass' keyword is a placeholder. You should remove it.
 
 def area_of_rectangle(length, width):
     """
@@ -33,7 +35,7 @@ def area_of_rectangle(length, width):
     Formula: area = length * width
     """
     # TODO: Write the code to calculate and return the area.
-    pass
+    return length * width
 
 def area_of_circle(radius):
     """
@@ -41,4 +43,4 @@ def area_of_circle(radius):
     Formula: area = pi * radius^2
     """
     # TODO: Write the code to calculate and return the area.
-    pass
+    return math.pi *radius ** 2
