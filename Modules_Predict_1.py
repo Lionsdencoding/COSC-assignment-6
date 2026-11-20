@@ -29,6 +29,8 @@ final output will be when `main.py` is executed. Write down your prediction.
 
 
 # --- Your Prediction Here ---
-#
+#The main program is starting...
+#Hello from the greetings module!
+#The main program is ending.
 #
 #
