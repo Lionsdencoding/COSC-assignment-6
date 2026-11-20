@@ -16,13 +16,13 @@ Your task is to modify the code to only import the specific tools we need.
 
 # STARTING CODE
 # TODO: Modify this import statement.
-import math
+from import math import pi, pow
 
 def sphere_volume(radius):
     """Calculates the volume of a sphere."""
     # The formula for the volume of a sphere is (4/3) * pi * r^3
     # TODO: Modify this line to remove the module prefix.
-    volume = (4/3) * math.pi * math.pow(radius, 3)
+    volume = (4/3) * pi * pow(radius, 3)
     return volume
 
 # --- Main program execution ---
