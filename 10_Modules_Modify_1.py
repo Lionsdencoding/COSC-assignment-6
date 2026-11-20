@@ -18,24 +18,18 @@ Your task:
 """
 
 # STARTING CODE
-
+import text_utils
 # TODO: Add an import statement here to import the `text_utils.py` module.
 
 
 # TODO: Move these two functions to a new file called text_utils.py
-def shout(message):
-    """Converts a message to uppercase and adds exclamation points."""
-    return message.upper() + "!!!"
 
-def whisper(message):
-    """Converts a message to lowercase and adds 'shh...'."""
-    return "shh... " + message.lower()
 
 
 # --- Main program execution ---
 # TODO: Modify these function calls to work after moving the functions.
-angry_message = shout("I need coffee")
-secret_message = whisper("The eagle flies at midnight")
+angry_message = text_utils.shout("I need coffee")
+secret_message = text_utils.whisper("The eagle flies at midnight")
 
 print(angry_message)
 print(secret_message)
